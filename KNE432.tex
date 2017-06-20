@@ -1,0 +1,85 @@
+\documentclass[10pt,landscape,a4paper]{article}
+\usepackage{multicol}
+\usepackage[landscape]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,float,parskip,graphicx}
+
+% This sets page margins to 1cm
+\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm}
+
+% Turn off header and footer
+\pagestyle{empty}
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+\newcommand{\todo}[1] {\textbf{\textcolor{red}{#1}}}
+\newcommand{\subs}[1]{\ensuremath{_{\text{#1}}}}
+\newcommand{\rms}{\subs{rms}}
+\newcommand{\nrms}[1]{\subs{#1,rms}}
+\newcommand{\half}{\frac{1}{2}}
+\newcommand{\inlineimage}[1]{\includegraphics[width=0.25\textwidth]{#1}\\}
+\newcommand{\minititle}[1]{\textbf{#1:}\\}
+
+\begin{document}
+	\begin{multicols*}{4}
+		\section*{List of acronyms:}
+		\begin{itemize}
+			\item AM = Amplitude Modulation
+			\item PM = Phase Modulation
+			\item FM = Frequency Modulation
+			\item 
+			\item LPF = Low Pass Filter
+			\item CDMA = Code Division Multiplexing Access
+			\item FDMA = Frequency Division Multiplexing Access
+			\item PLL = Phase Locked Loop
+			\item ...SK = ... Shift Keying
+			\begin{itemize}
+				\item A... = Amplitude ...
+				\item BA... = Binary Amplitude ...
+				\item P... = Phase...
+				\item BP... = Binary Phase ...
+				\item F... = Frequency...
+			\end{itemize}
+			\item PCM Pulse code modulation
+		\end{itemize}
+		BASK:\\
+		$ s(t) = \left\{
+		\begin{array}{ll}
+		\sqrt{\frac{2E_b}{T_b}}\cos(2\pi f_c t + \phi_c), & \text{symbol '1'}\\
+		0, & \text{symbol '0'}
+		\end{array}\right. $
+		BPSK:\\
+		$ s(t) = \left\{
+		\begin{array}{ll}
+		\sqrt{\frac{2E_b}{T_b}}\cos(2\pi f_ct) & \text{symbol '1'}\\
+		-\sqrt{\frac{2E_b}{T_b}}\cos(2\pi f_ct) & \text{symbol '0'}
+		\end{array}\right. $
+		FSK:\\
+		$ s(t) = \left\{
+		\begin{array}{ll}
+		\sqrt{\frac{2E_b}{T_b}}\cos(2\pi f_1t) & \text{symbol '1'}\\
+		\sqrt{\frac{2E_b}{T_b}}\cos(2\pi f_2t) & \text{symbol '0'}
+		\end{array}\right. $
+		\textbf{Phase Locked Loops:}
+		Consist of 3 parts, low pass filter, a guessing part and an adjusting signal.
+		\inlineimage{phaselockedloop.png}
+		The guessing part is the VCO, which has the output:\\
+		$ x(t) = \sin\left[\omega_F + K_v \int y(t)dt + \phi_0 \right] $
+		The phase comparitor is made using a multiplier, XOR gate, etc. And the low pass filter is generally of the first order.\\
+		Input: $ v_i(A_c\cos(\omega_ct+\phi_i)) $ and VCO output: $ v_o(t) =sin\left[\omega_Ft+K_v\int v_c(\tau)d\tau+\phi_o\right] $ let, $ \omega_o(t) = \omega_Ft+K_v\int v_c(\tau)d\tau $ So the ouput of the phase comparitor (before the LPF) is $ p(t) = \frac{A_c}{2}\{\sin((\omega_ct+\omega_o(t))+(\phi_i + \phi_o))+\sin((\omega_ct-\omega_o(t))+(\phi_i - \phi_o))\} $\\
+		Using the low pass filter to remove the added components. It's output becomes, $ v_c(t) = \frac{A_cK_0}{2}\sin((\omega_c-\omega_F)t+(\phi_i - \phi_o)) $ \\
+		In steady state, $ v_c(t) = 2\frac{\omega_c-\omega_F}{K_v} = \frac{A_cK_0}{2}\sin(\phi_i-\phi_o) $ so the locking range is $ -1 \le 2\frac{\omega_c-\omega_F}{K_vA_cK_0} \le 1 $. Capture range less than the locking range according to the phase characteristics of the low pass filter. 
+		\inlineimage{pllapplied.png}
+		\minititle{Sampling}
+		$ f_s \geq 2B $ ie the sampling rate needs to be at least double the highest frequency present in the input signal.\\
+		\minititle{Pulse Code Modulation:}
+		\textbf{Midtread}, where the value is in the middle of the sample time. \textbf{Midrise}, where
+		the value is at the start of the sample time.\\
+		\textbf{PCM and SNR:} $ E\left[q^2(t)\right] = \lim\limits_{T\rightarrow\infty}\frac{1}{2BT}
+		\sum_kq^2(kT_s) $ where q is the quantisation error. In an M-ary system this reduces to: $ E\left[q^2(t)\right] = \frac{m_p^2}{3L^2} $ resulting in the signal to noise ratio,
+		 $ \frac{S_0}{N_0} = 3L^2\frac{E\left[m^2(t)\right]}{m_p^2} $\\
+		 This can be improved with \textbf{non-uniform sampling}, where the sample levels are mapped to a log law or similar, increasing the response for low $ E\left[m^2(t)\right] $ values,
+	\end{multicols*}
+\end{document}
