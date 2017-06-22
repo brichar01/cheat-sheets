@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  20 JUN 2017 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  22 JUN 2017 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1214,21 +1214,35 @@ Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
 . Defining command \homework with sig. '' on line 764.
 .................................................
 )
-(./KYA321.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box69
+\UL@hyphenbox=\box70
+\UL@skip=\skip57
+\UL@hook=\toks27
+\UL@height=\dimen162
+\UL@pe=\count140
+\UL@pixel=\dimen163
+\ULC@box=\box71
+Package: ulem 2012/05/18
+\ULdepth=\dimen164
+) (./KYA321.aux)
 \openout1 = `KYA321.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1266,17 +1280,17 @@ LaTeX Font Info:    ... okay on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count140
-\scratchdimen=\dimen162
-\scratchbox=\box69
-\nofMPsegments=\count141
-\nofMParguments=\count142
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count143
-\MPscratchDim=\dimen163
-\MPnumerator=\count144
-\makeMPintoPDFobject=\count145
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count141
+\scratchdimen=\dimen165
+\scratchbox=\box72
+\nofMPsegments=\count142
+\nofMParguments=\count143
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen166
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1321,12 +1335,12 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1334,49 +1348,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <hmicro.png, id=1, 286.06876pt x 170.6375pt>
 File: hmicro.png Graphic file (type png)
  <use hmicro.png>
-Package pdftex.def Info: hmicro.png used on input line 47.
+Package pdftex.def Info: hmicro.png used on input line 52.
 (pdftex.def)             Requested size: 197.03534pt x 117.5317pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--52
+Underfull \hbox (badness 10000) in paragraph at lines 33--57
 \OT1/cmr/m/n/10 Momentum, $[] = (\OML/cmm/m/it/10 ^^Mmc; ^^Mm[]\OT1/cmr/m/n/10 
 )$ and
  []
 
 
-Overfull \hbox (7.5pt too wide) in paragraph at lines 31--52
+Overfull \hbox (7.5pt too wide) in paragraph at lines 33--57
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--52
+Underfull \hbox (badness 10000) in paragraph at lines 33--57
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 58.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
 
 <infsquarewell.png, id=2, 101.37875pt x 125.46875pt>
 File: infsquarewell.png Graphic file (type png)
  <use infsquarewell.png>
-Package pdftex.def Info: infsquarewell.png used on input line 67.
+Package pdftex.def Info: infsquarewell.png used on input line 71.
 (pdftex.def)             Requested size: 118.21638pt x 146.31154pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--70
+Underfull \hbox (badness 10000) in paragraph at lines 62--74
 
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 58--70
+Underfull \hbox (badness 5696) in paragraph at lines 62--74
 \OT1/cmr/m/n/10 Try a si-nu-soidal so-lu-tion: $	(\OML/cmm/m/it/10 x\OT1/cmr/m/
 n/10 ) =
  []
 
 
-Overfull \hbox (11.73204pt too wide) detected at line 70
+Overfull \hbox (11.73204pt too wide) detected at line 74
 [] \OML/cmm/m/it/10 A[] [][][] \OT1/cmr/m/n/10 + [] \OML/cmm/m/it/10 B[] [][][]
 
  []
@@ -1384,39 +1398,39 @@ Overfull \hbox (11.73204pt too wide) detected at line 70
 <barriertunnelex.png, id=3, 236.885pt x 224.84pt>
 File: barriertunnelex.png Graphic file (type png)
  <use barriertunnelex.png>
-Package pdftex.def Info: barriertunnelex.png used on input line 77.
+Package pdftex.def Info: barriertunnelex.png used on input line 81.
 (pdftex.def)             Requested size: 197.03534pt x 187.02197pt.
 
 <postulates.png, id=4, 761.84625pt x 362.35374pt>
 File: postulates.png Graphic file (type png)
  <use postulates.png>
-Package pdftex.def Info: postulates.png used on input line 85.
+Package pdftex.def Info: postulates.png used on input line 89.
 (pdftex.def)             Requested size: 197.03534pt x 93.71213pt.
 
-Overfull \hbox (7.5pt too wide) in paragraph at lines 70--94
+Overfull \hbox (7.5pt too wide) in paragraph at lines 74--98
 [] 
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 70--94
+Underfull \hbox (badness 6252) in paragraph at lines 74--98
 \OT1/cmr/m/n/10 Commutator: $[[]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ] = [][] \
 OMS/cmsy/m/n/10 ^^@ [][]$
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 70--94
+Underfull \hbox (badness 5446) in paragraph at lines 74--98
 \OT1/cmr/m/n/10 Mo-men-tum: $[] = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 i\U/msb/
 m/n/10 ~[]$\OT1/cmr/m/n/10 , En-ergy:
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 70--94
+Underfull \hbox (badness 5908) in paragraph at lines 74--98
 [] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[][]$ \OT1/cmr/m/n/10 An-gu-lar Mo-men
 -tum:
  []
 
 
-Overfull \hbox (7.5pt too wide) in paragraph at lines 70--94
+Overfull \hbox (7.5pt too wide) in paragraph at lines 74--98
 [] 
  []
 
@@ -1427,15 +1441,15 @@ well.png> <./barriertunnelex.png>]
 <levicevita.png, id=27, 501.875pt x 250.9375pt>
 File: levicevita.png Graphic file (type png)
  <use levicevita.png>
-Package pdftex.def Info: levicevita.png used on input line 103.
+Package pdftex.def Info: levicevita.png used on input line 107.
 (pdftex.def)             Requested size: 157.62585pt x 78.81215pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--114
+Underfull \hbox (badness 10000) in paragraph at lines 99--118
 
  []
 
 
-Overfull \hbox (149.60974pt too wide) detected at line 114
+Overfull \hbox (149.60974pt too wide) detected at line 118
 \OMS/cmsy/m/n/10 ^^@[] [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (
 \OML/cmm/m/it/10 r\OT1/cmr/m/n/10 )\OML/cmm/m/it/10   \OT1/cmr/m/n/10 = \OML/cm
 m/m/it/10 E 
@@ -1444,92 +1458,92 @@ m/m/it/10 E
 <sphericalsoln.PNG, id=29, 271.0125pt x 295.1025pt>
 File: sphericalsoln.PNG Graphic file (type png)
  <use sphericalsoln.PNG>
-Package pdftex.def Info: sphericalsoln.PNG used on input line 118.
+Package pdftex.def Info: sphericalsoln.PNG used on input line 122.
 (pdftex.def)             Requested size: 118.21638pt x 128.72427pt.
 
 <angularmomentvector.png, id=30, 364.36125pt x 352.31625pt>
 File: angularmomentvector.png Graphic file (type png)
 
 <use angularmomentvector.png>
-Package pdftex.def Info: angularmomentvector.png used on input line 121.
+Package pdftex.def Info: angularmomentvector.png used on input line 125.
 (pdftex.def)             Requested size: 118.21638pt x 114.30789pt.
 
 <intergralnotation.png, id=31, 593.21625pt x 49.18375pt>
 File: intergralnotation.png Graphic file (type png)
 
 <use intergralnotation.png>
-Package pdftex.def Info: intergralnotation.png used on input line 149.
+Package pdftex.def Info: intergralnotation.png used on input line 154.
 (pdftex.def)             Requested size: 197.03534pt x 16.33649pt.
 
 <diracnotation.png, id=32, 583.17876pt x 39.14626pt>
 File: diracnotation.png Graphic file (type png)
  <use diracnotation.png>
-Package pdftex.def Info: diracnotation.png used on input line 150.
+Package pdftex.def Info: diracnotation.png used on input line 155.
 (pdftex.def)             Requested size: 197.03534pt x 13.22592pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--156
+Underfull \hbox (badness 10000) in paragraph at lines 118--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--156
+Underfull \hbox (badness 10000) in paragraph at lines 118--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--156
+Underfull \hbox (badness 10000) in paragraph at lines 118--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--156
+Underfull \hbox (badness 10000) in paragraph at lines 118--161
 
  []
 
 
-Overfull \hbox (7.5pt too wide) in paragraph at lines 114--156
+Overfull \hbox (7.5pt too wide) in paragraph at lines 118--161
 [] 
  []
 
 
-Overfull \hbox (7.5pt too wide) in paragraph at lines 114--156
+Overfull \hbox (7.5pt too wide) in paragraph at lines 118--161
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--161
+Underfull \hbox (badness 10000) in paragraph at lines 161--166
 \OT1/cmr/m/n/10 The spin-orbit Hamil-to-nian, $[] =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--161
+Underfull \hbox (badness 10000) in paragraph at lines 161--166
 
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 162--187
+Underfull \hbox (badness 6961) in paragraph at lines 167--192
 \OT1/cmr/m/n/10 The eigen-func-tion's are then $\OML/cmm/m/it/10  [] \OT1/cmr/m
 /n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--187
+Underfull \hbox (badness 10000) in paragraph at lines 167--192
 \OT1/cmr/m/n/10 Second or-der cor-rec-tion: $\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/
 10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--187
+Underfull \hbox (badness 10000) in paragraph at lines 167--192
 \OT1/cmr/bx/n/10 Differential cross sec-tion for a
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 162--187
+Underfull \hbox (badness 7486) in paragraph at lines 167--192
 \OT1/cmr/bx/n/10 free par-ti-cle and a ra-dial per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--187
+Underfull \hbox (badness 10000) in paragraph at lines 167--192
 \OT1/cmr/bx/n/10 turb-ing po-ten-tial, $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^R
 ; ^^^\OT1/cmr/m/n/10 ) =
  []
@@ -1539,66 +1553,92 @@ vector.png> <./intergralnotation.png> <./diracnotation.png>]
 <q1ai.png, id=39, 595.47469pt x 71.51718pt>
 File: q1ai.png Graphic file (type png)
  <use q1ai.png>
-Package pdftex.def Info: q1ai.png used on input line 191.
-(pdftex.def)             Requested size: 394.07068pt x 47.32806pt.
+Package pdftex.def Info: q1ai.png used on input line 197.
+(pdftex.def)             Requested size: 236.44481pt x 28.39684pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 190--192
-[] 
- []
+<q1aii.png, id=40, 516.42938pt x 23.33719pt>
+File: q1aii.png Graphic file (type png)
+ <use q1aii.png>
+Package pdftex.def Info: q1aii.png used on input line 199.
+(pdftex.def)             Requested size: 236.44481pt x 10.68466pt.
 
+<q1aiii.png, id=41, 551.05875pt x 38.39343pt>
+File: q1aiii.png Graphic file (type png)
+ <use q1aiii.png>
+Package pdftex.def Info: q1aiii.png used on input line 201.
+(pdftex.def)             Requested size: 236.44481pt x 16.4737pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
+<q1aiv.png, id=42, 371.13657pt x 87.32625pt>
+File: q1aiv.png Graphic file (type png)
+ <use q1aiv.png>
+Package pdftex.def Info: q1aiv.png used on input line 207.
+(pdftex.def)             Requested size: 236.44481pt x 55.63542pt.
 
- []
+<q1av.png, id=43, 546.54187pt x 42.91031pt>
+File: q1av.png Graphic file (type png)
+ <use q1av.png>
+Package pdftex.def Info: q1av.png used on input line 209.
+(pdftex.def)             Requested size: 236.44481pt x 18.56367pt.
 
-<q2ai.png, id=40, 575.90157pt x 136.25906pt>
+<q1b.png, id=44, 584.1825pt x 148.30406pt>
+File: q1b.png Graphic file (type png)
+ <use q1b.png>
+Package pdftex.def Info: q1b.png used on input line 214.
+(pdftex.def)             Requested size: 236.44481pt x 60.02434pt.
+
+<q2ai.png, id=45, 575.90157pt x 136.25906pt>
 File: q2ai.png Graphic file (type png)
  <use q2ai.png>
-Package pdftex.def Info: q2ai.png used on input line 194.
-(pdftex.def)             Requested size: 394.07068pt x 93.24124pt.
+Package pdftex.def Info: q2ai.png used on input line 217.
+(pdftex.def)             Requested size: 236.44481pt x 55.9435pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 193--198
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 196--233
+\OT1/cmr/m/n/10 Solve and find E as a func-tion of con-stants.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--211
+Underfull \hbox (badness 10000) in paragraph at lines 196--233
 
  []
 
-[3 <./q1ai.png> <./q2ai.png>] (./KYA321.aux) ) 
+
+Overfull \vbox (0.78267pt too high) has occurred while \output is active []
+
+
+[3 <./q1ai.png> <./q1aii.png> <./q1aiii.png> <./q1aiv.png> <./q1av.png> <./q1b.
+png> <./q2ai.png>] (./KYA321.aux) ) 
 Here is how much of TeX's memory you used:
- 10359 strings out of 494953
- 186240 string characters out of 6180978
- 256912 words of memory out of 5000000
- 13564 multiletter control sequences out of 15000+600000
- 8455 words of font info for 32 fonts, out of 8000000 for 9000
+ 10498 strings out of 494953
+ 187923 string characters out of 6180978
+ 259074 words of memory out of 5000000
+ 13689 multiletter control sequences out of 15000+600000
+ 8561 words of font info for 33 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,11n,42p,10430b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cmextra/cmbsy7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msbm5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msbm7.pfb>
-Output written on KYA321.pdf (3 pages, 418846 bytes).
+ 40i,11n,42p,10409b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cmextra/cmbsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm7.pfb>
+Output written on KYA321.pdf (3 pages, 490456 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,8 @@
 \documentclass[10pt,landscape,a4paper]{article}
 \usepackage{multicol}
 \usepackage[landscape]{geometry}
-\usepackage{amsmath,amsthm,amsfonts,amssymb, graphicx, physics}
+\usepackage{amsmath,amsthm,amsfonts,amssymb, graphicx, physics,setspace}
+\usepackage[normalem]{ulem}
 \newcommand{\subs}[1]{\ensuremath{_{\text{#1}}}}
 \newcommand{\rms}{\subs{rms}}
 \newcommand{\nrms}[1]{\subs{#1,rms}}
@@ -12,6 +13,7 @@
 \newcommand{\minititle}[1]{\textbf{#1:}\\}
 \renewcommand{\^}[1]{\ensuremath{\hat{#1}}}
 \newcommand{\h}{\hbar}
+\renewcommand{\-}[1]{\text{\sout{\ensuremath{#1}}}}
 
 
 % This sets page margins to 1cm
@@ -42,7 +44,10 @@
 	Four vector: $ (c\Delta t,\Delta x,\Delta y,\Delta z)=( c\Delta t,\Delta \textbf{r}) $\\
 	Inner Product: $ A\vdot B = A_0B_0 - \textbf{A}\vdot \textbf{B} \implies (\Delta s)^2 = c^2\Delta t^2 - \Delta x^2 $, the inner product of the space-time four vector is the invariant interval.\\
 	Momentum, $ \textbf{p} = (\gamma mc, \gamma m\textbf{u}) $ and $ p = (\left(\frac{E}{c}\right),\textbf{p}) $ where $ E = \gamma mc^2 = mc^2 + KE $	
-	\textbf{de Broglie:} $ E = h\nu $ so, $ p = \frac{h}{\lambda} $, \textbf{Uncertainty:} $ \Delta p \Delta x \geq \frac{\hbar}{2} $, $ \Delta E \Delta t \geq \frac{\hbar}{2} $ Phase velocity: $ \omega = \frac{dx_n}{dt}=\frac{\nu}{\kappa} $ Group velocity: $ g = \frac{d\nu}{d\kappa} $ \\
+	\textbf{de Broglie:} $ E = h\nu $ so, $ p = \frac{h}{\lambda} $ Phase velocity: $ \omega = \frac{dx_n}{dt}=\frac{\nu}{\kappa} $ Group velocity: $ g = \frac{d\nu}{d\kappa} $ \\
+	\minititle{Energy-momentum Diagram}
+	\textbf{Mass shell:} $ E^2 + |p|^2c^2 = m^2c^4 $\\
+	\textbf{Conservation of Energy:} $ \sum E_i = \sum E_f $ \textbf{Conservation of Momentum:} $ \sum p_i = \sum p_f $\\
 	\textbf{Heisenberg's Microscope:} To consider qualitatively the uncertainty principle, we will look at how we measure things, and how the measurement affects atomic particles.\\
 	\inlineimage{hmicro.png}
 	The light we observe has interacted off the incident proton, and has some uncertainty in x and movement (momentum).\\ 
@@ -54,7 +59,6 @@
 		\item There is no objective reality, making a measurement is the same thing as an interaction between two unobserved particles. These interactions collapse the superimposed wave forms, to the single outcome.
 		\item Because of this, there is an uncertainty introduced. 
 	\end{itemize}
-	
 	\textbf{Schrodinger's Equation}\\
 	$ i\hbar \frac{\partial}{\partial t}\Psi(\textbf{r},t) = \hat{H}\Psi(\textbf{r},t) $\\
 	This is just application of the Hamiltonian (energy) operator to the wave function of the particle. \\ 
@@ -144,7 +148,8 @@
 	\minititle{Pauli Spin Matrices}
 	$ \sigma_x = \mqty[0 & 1 \\ 1 & 0]~~\sigma_y = \mqty[0 & -i \\ i & 0]~~\sigma_z=\mqty[1 & 0 \\ 0 & -1] $\\
 	So the spin operator becomes, $ \^S_x = \half\h\sigma_x $, etc.
-	and the angular momentum operators become,	$ \^L^2 = 2\h^2\sbmqty{1&0&0\\0&1&0\\0&0&1} $ and $ \^L_z = \h\sbmqty{1&0&0\\0&0&0\\0&0&-1} $, the raising operators, $ \^L_+ = \sbmqty{0&\sqrt{2}&0\\0&0&\sqrt{2}\\0&0&0} $ and $ \^L_- = \h\sbmqty{0&0&0\\0&0&\sqrt{2}\\0&\sqrt{2}&0} $
+	and the angular momentum operators become,	$ \^L^2 = 2\h^2\sbmqty{1&0&0\\0&1&0\\0&0&1} $ and $ \^L_z = \h\sbmqty{1&0&0\\0&0&0\\0&0&-1} $, the raising operators, $ \^L_+ = \sbmqty{0&\sqrt{2}&0\\0&0&\sqrt{2}\\0&0&0} $ and $ \^L_- = \h\sbmqty{0&0&0\\\sqrt{2}&0&0
+		\\0&\sqrt{2}&0} $
 	\minititle{Dirac Notation}
 	\inlineimage{intergralnotation.png}
 	\inlineimage{diracnotation.png}
@@ -186,16 +191,33 @@
 	Now we care about the phase shifts induced by the scatterer and the angular momentum of the particle. $ dN = \frac{\h k}{mV}\abs{f(\theta)}^2d\Omega \implies \dv{\sigma}{\Omega} = \abs{f(\theta)}^2 $ so the total cross section: $ \sigma = 2\pi\int_0^\pi |f(\theta)|^2\sin\theta d\Omega $. Which for our radial electric potential is, $ \frac{4\pi}{k^2}\sum(2l+1)\sin^2\delta_l $ over all $ l $, however $ \delta_l $ is hard to get, except for when $ l=0 $.
 	
 	\end{multicols}
-	\begin{multicols}{2}
+	\begin{multicols}{3}
+		\setstretch{1.25}
 		\minititle{Examples}
-		\inlineimagesize{q1ai.png}{0.5}
-		
-		\minititle{q2a}
-		\inlineimagesize{q2ai.png}{0.5}
+		\inlineimagesize{q1ai.png}{0.3}
+		The uncertainty principle describes how we perceive our surroundings through interaction. One example is Heisenberg's microscope, which observes a photon after it is deflected off an atomic particle. There are a range of initial particle positions and momenta that will yield us observing a photon. To observe the universe without affecting it would be impractical and not useful.\\
+		\inlineimagesize{q1aii.png}{0.3}
+		A localised free particle will spread out with time as the uncertainty in it's position grows with respect to it's uncertainty of momentum. If we have a particle with some momentum $ \rho_0\pm\Delta\rho $ and it is localised to some position $ x_0\pm\Delta x $ and time zero, then we expect it to be at some time $ t_0 $ there will be an uncertainty in position $ \Delta x+\Delta\rho\times t_0 $, hence we expect the particle wave function to spread-out.\\
+		\inlineimagesize{q1aiii.png}{0.3}
+		The standard deviation is the uncertainty in x. ie,
+		$ \sigma = \Delta x = \sqrt{\expval{x^2}-\expval{x}^2} $\\
+		$ x^2 = \int\psi^*(x)x^2\psi(x)dx = \int c^2\-x^{-2}e^{-\alpha x^2}\-x^2dx = \frac{c^2}{\alpha} $\\
+		$ \expval{x}^2 = \left(\int\psi^2xdt\right)^2 = \int c^2x^{-1}e^{-\alpha x^2}dx = 0 $\\
+		$ \therefore \Delta x = c\alpha^{-\flatfrac{1}{2}} $\\
+		\inlineimagesize{q1aiv.png}{0.3}
+		The components of the wavefunction $ Ae^{ikx} $ and $ Be^{-ikx} $ are associated with  standing waves with constant amplitude, hence there is no flux caused by total wave function as there is no velocity. \\
+		\inlineimagesize{q1av.png}{0.3}
+		The group velocity is: $ g = \dv{\nu}{\kappa} $\\
+		So from Q: $ \frac{\lambda}{c} = (\nu^2-\nu_0^2)^{-1/2} $ and $ \kappa = \frac{1}{\lambda} $\\
+		$ \therefore \frac{\kappa^2}{c^2} = \nu^2-\nu_0^2 \therefore \nu = \frac{\sqrt{\kappa^2-\nu^2c^2}}{c} = \frac{\sqrt{\kappa^2-\kappa_0^2}}{c} $\\
+		$ \therefore g = \frac{2\kappa c}{\sqrt{\kappa^2-\nu^2c^2}} $\\
+		\inlineimagesize{q1b.png}{0.3}
+		\textbf{i.} from the schrodinger equation, \tise \\
+		Solve and find E as a function of constants. 
+		\inlineimagesize{q2ai.png}{0.3}
 		$ \therefore E = \frac{p^2}{2m} \implies p = \sqrt{2mE}\\
 		\int p dq = nh \implies \int p dq + \int -p dq = 2\int \sqrt{2mE} dx\\
-		2\sqrt{2mE}r_0 = nh \therefore E = \frac{h^2n^2}{8mr_0^2} $
-		
+		2\sqrt{2mE}r_0 = nh \therefore E = \frac{h^2n^2}{8mr_0^2} $\\
 		\minititle{q2b}
 		$ X^*_2 \rightarrow X_2 + \gamma \\
 		E^2 - c^2p^2 = m^2c^4 \\
@@ -208,5 +230,6 @@
 		Rearrange for $ 2E_mE_\gamma = m_*^2c^4 - (E_m^2-c^2p_m^2) - (E_\gamma^2-c^2p_\gamma^2) -2c^2p_\gamma^2 $ which are the 2 mass shells, $ \therefore = m_*^2c^4 $ and $ = m^2c^4 $\\
 		$ \therefore 2E_mE_\gamma = m_*^2c^4 - m^2c^4-2p_\gamma $\\
 		Sub $ E_m $ from conservation of energy. Solve for $ E_\gamma $\\
+		
 	\end{multicols}
 \end{document}
